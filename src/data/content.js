@@ -19,8 +19,8 @@ export const feesData = {
     { category: "Industry Expert", earlyBird: "Rs. 5000/-", afterDue: "Rs. 6000/-" }
   ],
   international: [
-    { category: "Research Scholar / Students", earlyBird: "150 USD", afterDue: "200 USD" },
-    { category: "Faculty", earlyBird: "300 USD", afterDue: "400 USD" },
+    { category: "Research Scholar / Students", earlyBird: "$150", afterDue: "$200" },
+    { category: "Faculty", earlyBird: "$300", afterDue: "$400" },
     { category: "Listener/\nAccompanying Person", earlyBird: "Rs. 2000/-", afterDue: null }
   ]
 };
@@ -43,16 +43,16 @@ export const committees = {
   generalChairs: [
     { name: "Dr. Fernando Ortiz-Rodríguez", affiliation: "Autonomous University of Tamaulipas, Mexico", image: "/FernandoOrtiz.jpg" },
     { name: "Dr. Shishir Kumar Shandilya", affiliation: "Devi Ahilya Vishwavidyalaya", image: "/ShishirKumar.jpg" },
-    { name: "Dr. Poonkuntran Shanmugam", affiliation: "VIT Bhopal", image: "/PoonkuthranC.jpg" },
+    { name: "Dr. Poonkuntran Shanmugam", affiliation: "Executive Dean CSE, VIT Bhopal", image: "/PoonkuthranC.jpg" },
     { name: "Dr. Jose L. Martinez-Rodriguez", affiliation: "Autonomous University of Tamaulipas", image: "/JoseMartinez.jpeg" }
   ],
   conferenceChair: [
-    { name: "Dr. Hemant Kumar Nashine", affiliation: "Dean, SASL", image: "/HemantKumar.jpg" }
+    { name: "Dr. Hemant Kumar Nashine", affiliation: "Dean, SASL VIT Bhopal", image: "/HemantKumar.jpg" }
   ],
   organizingSecretaries: [
-    { name: "Dr. Akshara Makrariya", affiliation: "", image: "/AksharaMakrariya.webp" },
-    { name: "Dr. Praveen Lalwani", affiliation: "", image: "/praveenlalwani.jpg" }
+    { name: "Dr. Akshara Makrariya", affiliation: "VIT Bhopal", image: "/AksharaMakrariya.webp" },
+    { name: "Dr. Praveen Lalwani", affiliation: "VIT Bhopal", image: "/praveenlalwani.jpg" }
   ],
-  conveners: [{ name: "Dr. Anant Kant Shukla", affiliation: "", image: "/AnantKantShukla.jpg" },
-  { name: "Dr. Bhakti Parashar", affiliation: "", image: "/BhaktiParashar.jpg" }]
+  conveners: [{ name: "Dr. Anant Kant Shukla", affiliation: "VIT Bhopal", image: "/AnantKantShukla.jpg" },
+  { name: "Dr. Bhakti Parashar", affiliation: "VIT Bhopal", image: "/BhaktiParashar.jpg" }]
 }

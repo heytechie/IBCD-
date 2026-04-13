@@ -52,6 +52,7 @@
 
 .fee-val {
   font-weight: 600;
+  white-space: nowrap;
 }
 
 @media (max-width: 768px) {
