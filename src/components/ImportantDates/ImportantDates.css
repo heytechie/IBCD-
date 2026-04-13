@@ -1,0 +1,38 @@
+.important-dates-section {
+  padding: 3rem 0;
+}
+
+.text-left {
+  text-align: left;
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+  color: var(--color-text-dark);
+}
+
+.date-card {
+  background-color: var(--color-bg-alt);
+  padding: 2rem;
+  border-radius: 4px;
+  border-top: 4px solid var(--color-primary);
+  transition: transform 0.3s ease;
+}
+
+.date-card:hover {
+  transform: translateY(-5px);
+}
+
+.icon-wrapper {
+  margin-bottom: 1rem;
+}
+
+.date-title {
+  font-family: var(--font-sans);
+  font-size: 1rem;
+  color: var(--color-primary);
+  margin-bottom: 0.5rem;
+}
+
+.date-value {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
