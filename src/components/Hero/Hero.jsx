@@ -29,14 +29,14 @@ const Hero = () => {
   }, []);
 
   return (
-    <section id="home" className="hero-section bg-alt d-flex align-center">
+    <section id="home" className="hero-section d-flex align-center">
       <div className="container hero-container align-center">
         <div className="hero-content">
           <h1 className="hero-title">
-            International Conference<br />
-            on Business Intelligence,<br />
-            Computational<br />
-            Mathematics and Data<br />
+            International Conference <br />
+            on Business Intelligence, <br />
+            Computational <br />
+            Mathematics and Data <br />
             Analytics <span className="text-accent">(IBCD 2026)</span>
           </h1>
           
@@ -50,10 +50,10 @@ const Hero = () => {
           </div>
 
           <div className="hero-actions d-flex gap-1">
-            <button className="btn d-flex align-center gap-1">
+            <button className="btn hero-btn-primary d-flex align-center gap-1">
               Submit Abstract <Send size={16} />
             </button>
-            <button className="btn btn-outline" onClick={() => document.getElementById('registration').scrollIntoView({ behavior: 'smooth' })}>
+            <button className="btn hero-btn-outline" onClick={() => document.getElementById('registration').scrollIntoView({ behavior: 'smooth' })}>
               Register Now
             </button>
           </div>

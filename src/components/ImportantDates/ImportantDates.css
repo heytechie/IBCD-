@@ -1,38 +1,49 @@
 .important-dates-section {
-  padding: 3rem 0;
+  padding: 4rem 0;
+  background-color: var(--color-bg-alt);
 }
 
 .text-left {
   text-align: left;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
   font-size: 1.5rem;
   color: var(--color-text-dark);
 }
 
 .date-card {
-  background-color: var(--color-bg-alt);
+  background-color: var(--color-bg);
   padding: 2rem;
-  border-radius: 4px;
-  border-top: 4px solid var(--color-primary);
-  transition: transform 0.3s ease;
+  border-radius: 8px;
+  border-top: 4px solid var(--color-accent);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
+  transition: transform 0.2s ease;
+  display: flex;
+  flex-direction: column;
 }
 
 .date-card:hover {
-  transform: translateY(-5px);
+  transform: translateY(-4px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
 }
 
 .icon-wrapper {
   margin-bottom: 1rem;
+  color: var(--color-primary);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
 }
 
 .date-title {
   font-family: var(--font-sans);
-  font-size: 1rem;
-  color: var(--color-primary);
+  font-size: 1.05rem;
+  color: var(--color-text-light);
   margin-bottom: 0.5rem;
+  font-weight: 500;
 }
 
 .date-value {
-  font-size: 1.1rem;
-  font-weight: 600;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--color-primary);
 }

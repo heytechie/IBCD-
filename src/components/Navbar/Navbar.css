@@ -26,8 +26,13 @@
   font-family: var(--font-serif);
   font-size: 1.5rem;
   font-weight: 700;
-  color: var(--color-primary);
+  color: #ffffff; /* White over hero image */
   cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.navbar.scrolled .navbar-logo {
+  color: var(--color-primary);
 }
 
 .navbar-links {
@@ -36,9 +41,14 @@
 
 .navbar-links a {
   font-size: 0.95rem;
-  color: var(--color-text-dark);
+  color: rgba(255, 255, 255, 0.9); /* Off-white over hero */
   font-weight: 500;
   position: relative;
+  transition: color 0.3s ease;
+}
+
+.navbar.scrolled .navbar-links a {
+  color: var(--color-text-dark);
 }
 
 .navbar-links a::after {
@@ -64,6 +74,11 @@
 .mobile-toggle {
   display: none;
   cursor: pointer;
+  color: #ffffff; /* White over hero */
+  transition: color 0.3s ease;
+}
+
+.navbar.scrolled .mobile-toggle {
   color: var(--color-primary);
 }
 
@@ -92,7 +107,10 @@
     opacity: 1;
   }
 
-  .navbar-links a {
+  /* Force dark text in mobile menu dropdown regardless of scroll state */
+  .navbar-links a,
+  .navbar.scrolled .navbar-links a {
+    color: var(--color-text-dark);
     font-size: 1.1rem;
     padding: 0.5rem 0;
   }

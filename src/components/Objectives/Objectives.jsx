@@ -28,7 +28,7 @@ const Objectives = () => {
         <div className="grid">
           {cards.map((card, index) => (
             <div className="objective-card text-center" key={index}>
-              <div className="obj-icon d-flex justify-center align-center font-primary bg-primary">
+              <div className="obj-icon d-flex justify-center align-center">
                 {card.icon}
               </div>
               <h4 className="obj-title">{card.title}</h4>
