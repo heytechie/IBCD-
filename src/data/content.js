@@ -58,6 +58,7 @@ export const committees = {
   coconveners: [{ name: "Dr. Ramraj Dangi", affiliation: "VIT Bhopal", image: "/RamrajDangi.jpg" },
   { name: "Dr. Sheerin Kayenat", affiliation: "VIT Bhopal", image: "/SheerinKayenat.jpg" },
   { name: "Dr. Juhi kesarwani", affiliation: "VIT Bhopal", image: "/JuhiKesarwani.jpg" },
-  { name: "Dr. Ashish Kesarwany", affiliation: "VIT Bhopal", image: "/AshishKesarwany.png" }
+  { name: "Dr. Ashish Kesarwany", affiliation: "VIT Bhopal", image: "/AshishKesarwany.png" },
+  { name: "Dr. Lokesh Malviya", affiliation: "VIT Bhopal", image: "/LokeshMalviya.png" },
   ]
 }
