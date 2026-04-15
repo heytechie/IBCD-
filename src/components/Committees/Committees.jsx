@@ -15,7 +15,7 @@ const Committees = () => {
           </div>
           <div className="heading-line"></div>
         </div>
-        <div className="committee-flex-grid" style={{marginTop: '2rem'}}>
+        <div className="committee-flex-grid" style={{ marginTop: '2rem' }}>
           {members.map((member, idx) => (
             <div className="committee-photo-card" key={idx}>
               <div className="committee-image">
@@ -36,12 +36,13 @@ const Committees = () => {
     <section id="committees" className="committees-section">
       <div className="container">
         <h2 className="section-title">Organizing Committees</h2>
-        
-        <div className="committee-content flex-column gap-3" style={{gap: '4rem'}}>
-          {renderCommitteeCategory("General Chairs", committees.generalChairs, )}
-          {renderCommitteeCategory("Conference Chair", committees.conferenceChair, )}
-          {renderCommitteeCategory("Organizing Secretaries", committees.organizingSecretaries, )}
-          {renderCommitteeCategory("Conveners", committees.conveners, )}
+
+        <div className="committee-content flex-column gap-3" style={{ gap: '4rem' }}>
+          {renderCommitteeCategory("General Chairs", committees.generalChairs,)}
+          {renderCommitteeCategory("Conference Chair", committees.conferenceChair,)}
+          {renderCommitteeCategory("Organizing Secretaries", committees.organizingSecretaries,)}
+          {renderCommitteeCategory("Conveners", committees.conveners,)}
+          {renderCommitteeCategory("Co-Conveners", committees.coconveners,)}
         </div>
       </div>
     </section>

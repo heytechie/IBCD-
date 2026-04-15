@@ -20,7 +20,7 @@ const Footer = () => {
                         <div className="contact-list d-flex flex-column gap-1">
                             <div className="d-flex align-center gap-1">
                                 <Mail size={16} className="text-accent" />
-                                <span>conference@vitbhopal.ac.in</span>
+                                <a href="mailto:ibcd2026@vitbhopal.ac.in">ibcd2026@vitbhopal.ac.in</a>
                             </div>
                             <div className="d-flex align-center gap-1">
                                 <Phone size={16} className="text-accent" />

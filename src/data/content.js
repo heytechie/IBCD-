@@ -33,10 +33,10 @@ export const paymentDetails = {
 };
 
 export const importantDates = [
-  { title: "Submission Deadline", date: "15 May 2026", icon: "file" },
-  { title: "Acceptance Notification", date: "30 June 2026", icon: "check" },
+  { title: "Submission Deadline(full paper)", date: "15 June 2026", icon: "file" },
+  { title: "Acceptance Notification", date: "30 July 2026", icon: "check" },
   { title: "Early Bird Registration", date: "10 Sept 2026", icon: "tag" },
-  { title: "Conference Dates", date: "15-16 Oct 2026", icon: "calendar" }
+  { title: "International Conference Dates", date: "15-16 Oct 2026", icon: "calendar" }
 ];
 
 export const committees = {
@@ -46,13 +46,18 @@ export const committees = {
     { name: "Dr. Poonkuntran Shanmugam", affiliation: "Executive Dean CSE, VIT Bhopal", image: "/PoonkuthranC.jpg" },
     { name: "Dr. Jose L. Martinez-Rodriguez", affiliation: "Autonomous University of Tamaulipas", image: "/JoseMartinez.jpeg" }
   ],
-  conferenceChair: [
+  "conferenceChair": [
     { name: "Dr. Hemant Kumar Nashine", affiliation: "Dean, SASL VIT Bhopal", image: "/HemantKumar.jpg" }
   ],
   organizingSecretaries: [
-    { name: "Dr. Akshara Makrariya", affiliation: "VIT Bhopal", image: "/AksharaMakrariya.webp" },
+    { name: "Dr. Akshara Makrariya", affiliation: "VIT Bhopal", image: "/AksharaMakrariya.jpeg" },
     { name: "Dr. Praveen Lalwani", affiliation: "VIT Bhopal", image: "/praveenlalwani.jpg" }
   ],
   conveners: [{ name: "Dr. Anant Kant Shukla", affiliation: "VIT Bhopal", image: "/AnantKantShukla.jpg" },
-  { name: "Dr. Bhakti Parashar", affiliation: "VIT Bhopal", image: "/BhaktiParashar.jpg" }]
+  { name: "Dr. Bhakti Parashar", affiliation: "VIT Bhopal", image: "/BhaktiParashar.jpeg" }],
+  coconveners: [{ name: "Dr. Ramraj Dangi", affiliation: "VIT Bhopal", image: "/RamrajDangi.jpg" },
+  { name: "Dr. Sheerin Kayenat", affiliation: "VIT Bhopal", image: "/SheerinKayenat.jpg" },
+  { name: "Dr. Juhi kesarwani", affiliation: "VIT Bhopal", image: "/JuhiKesarwani.jpg" },
+  { name: "Dr. Ashish Kesarwany", affiliation: "VIT Bhopal", image: "/AshishKesarwany.png" }
+  ]
 }
