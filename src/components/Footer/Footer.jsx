@@ -24,7 +24,11 @@ const Footer = () => {
                             </div>
                             <div className="d-flex align-center gap-1">
                                 <Phone size={16} className="text-accent" />
-                                <span>+91 7560 254 500</span>
+                                <span>Dr. Ramraj Dangi : +91 8770781163</span>
+                            </div>
+                            <div className="d-flex align-center gap-1">
+                                <Phone size={16} className="text-accent" />
+                                <span>Dr. Akshara Makrariya : +91 7748-836973</span>
                             </div>
                             <div className="d-flex align-center gap-1" style={{ alignItems: 'flex-start' }}>
                                 <MapPin size={16} className="text-accent" style={{ marginTop: '4px' }} />
