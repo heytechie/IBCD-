@@ -107,3 +107,50 @@
     gap: 1.5rem;
   }
 }
+
+.text-committees-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  text-align: left;
+}
+
+.text-committee-category.full-width {
+  grid-column: 1 / -1;
+}
+
+.text-committee-title {
+  color: #ff3333;
+  font-size: 1.5rem;
+  margin-bottom: 1.25rem;
+  font-family: var(--font-serif, sans-serif);
+  font-weight: 700;
+}
+
+.text-committee-list {
+  list-style-type: square;
+  padding-left: 1.5rem;
+  color: var(--color-text-light, #e0e0e0);
+  margin: 0;
+}
+
+.text-committee-item {
+  margin-bottom: 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  font-family: var(--font-sans, sans-serif);
+}
+
+.text-committee-list.columns-2 {
+  column-count: 2;
+  column-gap: 2rem;
+}
+
+@media (max-width: 768px) {
+  .text-committees-grid {
+    grid-template-columns: 1fr;
+  }
+  .text-committee-list.columns-2 {
+    column-count: 1;
+  }
+}

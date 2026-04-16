@@ -62,3 +62,79 @@ export const committees = {
   { name: "Dr. Lokesh Malviya", affiliation: "VIT Bhopal", image: "/LokeshMalviya.png" },
   ]
 }
+
+export const textCommittees = {
+  organisingCommittee: [
+    "Dr. Ajay Kumar Bhurjee",
+    "Dr. Ashish Keserwany",
+    "Dr. Ankit Pal",
+    "Dr. Palash"
+  ],
+  internationalAdvisoryCommittee: [
+    "Dr. Mehakpreet Singh (University of Limerick, Limerick V94 T9PX, Ireland)",
+    "Prof. Xiao-Zhi (University of Eastern Finland, Finland)",
+    "Dr. Agbotiname Lucky Imoize (University of Lagos)",
+    "Prof. D. B. Gurung, Kathmandu University, Nepal.",
+    "Prof. Aman Singh, Professor, Research & Innovation University Europa del Atlantico, Spain",
+    "Dr. Philip Virgil Astillo, Professor, Department Computer Engineering University of San Carlos, Philippines",
+    "Dr. Sandeep Singh Senger, Assistant Professor, Senior Lecturer, Cardiff Metropolitan University, United Kingdom",
+    "Dr. Gaurav Choudhary, Associate Professor, Technical University of Denmark",
+    "Dr. Arijit karati, Assistant Professor, National Sun yet-sen University"
+  ],
+  nationalAdvisoryCommittee: [
+    "Prof. V. P. Saxena Ex, VC jiwaji university Gwalior",
+    "Prof. Niladri Chatterjee , IIT Delhi",
+    "Prof. Renu Jain, VC, Devi Ahilya Vishwavidylaya, Indore, India.",
+    "Prof. K. R. Pardasani, MANIT, Bhopal, India.",
+    "Prof. Neeru Adlakha, SVNIT, Surat, India.",
+    "Prof. R. K. Upadhyay, IIT (ISM) Dhanbad, India.",
+    "Prof. L. P. Singh, IIT BHU, India",
+    "Dr. Shishir Kumar Shandilya, Devi Ahilya Vishwavidylaya, Indore, India",
+    "Prof. Somesh Kumar (IIT Kharagpur)",
+    "Dr. A. K. Verma (IIT Patna)",
+    "Dr. Bapan Ghosh (IIT Indore)",
+    "Dr. Daya Sagar Gupta (IIT  Patna)",
+    "Dr. Karm Veer Arya (IIITM Gwalior)",
+    "Dr. D. Bhargavi (National Institute of Technology, Warangal)",
+    "Dr. Sahadeo Padhye (Motilal Nehru National Institute of Technology, Allahabad)",
+    "Dr. Subrata Bera (National Institute of Technology Silchar)",
+    "Dr. Dibyendu Roy (IIIT Vadodara)",
+    "Dr. Prashant Kumar Srivastava, IIT, Patna, Bihar, India.",
+    "Dr. Rajesh K. Pandey, IIT BHU, UP, India.",
+    "Prof. G. P. Singh (Visvesvaraya National Institute of Technology, Nagpur).",
+    "Prof. Chiranjeev Kumar, Prof and  Head, IIT(ISM), Dhanbad",
+    "Dr. Haider Banka, Professor, IT(ISM), Dhanbad",
+    "Dr. Vijay Kumar Semwal, MANIT, Bhopal",
+    "Dr. Piyush Kumar Shukla, UIT RGPV, Bhopal",
+    "Dr. Pinku Ranjan, IIITM Gwalior",
+    "Prof. Md. Tanveer, IIT Indore",
+    "Dr. Pankaj Kumar, MANIT Bhopal.",
+    "Dr. Munesh Chandra Trivedi, Professor and Head, Pandit Sunderlal Sharma Central Institute of Vocational Education, Bhopal."
+  ],
+  technicalCommittee: [
+    "Dr. Somesh, Assistant Professor, IIITM Gwalior,",
+    "Dr. Sumit Kumar Singh, Assistant Professor, IIIT Pune",
+    "Dr. Preeti, Assistant Professor, NIT Raipur",
+    "Dr. NandKishore, Assistant Professor, NIT Jaipur",
+    "Dr. Priyank Jain, Assistant Professor, IIIT Pune",
+    "Dr. Ashish Sahu, Assistant Professor, MANIT Bhopal",
+    "Dr. Pradeep Chouksey, Associate Professor, Central University of Himachal Pradesh.",
+    "Dr. Jitendra Agarwal, Associate Professor, UIT RGPV, Bhopal",
+    "Dr. Rajeev Pandey, Associate Professor, UIT RGPV, Bhopal.",
+    "Dr. Subhash Kumar Patel, Assistant Professor, JNU Delhi."
+  ],
+  speakers: [
+    "Dr. Ram Bilas Pachori, Professor, IIT Indore",
+    "Dr. Kapil Ahuja, Professor, IIT Indore",
+    "Dr. Philip Virgil Astillo, Associate Professor, Department Computer Engineering University of San Carlos, Philippines",
+    "Dr. Ashutosh Singh, Director, IIIT Bhopal",
+    "Dr. Ruhul Amin, Associate Professor, IIIT Nayapura",
+    "Dr. Damoder Reddy, Associate Professor, NIT Goa",
+    "Dr. Brajesh Kumar Jha , Associate professor PDEU Gandhinagar",
+    "Dr. Pratyay Kuila",
+    "Dr. Jagdish Bansal Professor South Asian University New Delhi",
+    "Dr. Kunwer Singh Mathur , Associate Professor , JNU Delhi",
+    "Dr. Alekh Gour , Associate Professor, IIM Sirmaur",
+    "Dr. Sharada Nandan Raw , Associate Professor, NIT Raipur"
+  ]
+};

@@ -1,5 +1,5 @@
 import React from 'react';
-import { committees } from '../../data/content';
+import { committees, textCommittees } from '../../data/content';
 import './Committees.css';
 
 const Committees = () => {
@@ -32,6 +32,20 @@ const Committees = () => {
     );
   };
 
+  const renderTextCommitteeCategory = (title, members, fullWidth = false) => {
+    if (!members || members.length === 0) return null;
+    return (
+      <div className={`text-committee-category ${fullWidth ? 'full-width' : ''}`}>
+        <h3 className="text-committee-title">{title}</h3>
+        <ul className={`text-committee-list ${fullWidth ? 'columns-2' : ''}`}>
+          {members.map((member, idx) => (
+            <li key={idx} className="text-committee-item">{member}</li>
+          ))}
+        </ul>
+      </div>
+    );
+  };
+
   return (
     <section id="committees" className="committees-section">
       <div className="container">
@@ -43,6 +57,14 @@ const Committees = () => {
           {renderCommitteeCategory("Organizing Secretaries", committees.organizingSecretaries,)}
           {renderCommitteeCategory("Conveners", committees.conveners,)}
           {renderCommitteeCategory("Co-Conveners", committees.coconveners,)}
+        </div>
+
+        <div className="text-committees-grid" style={{ marginTop: '4rem' }}>
+          {renderTextCommitteeCategory("Organising Committee", textCommittees.organisingCommittee)}
+          {renderTextCommitteeCategory("Technical Committee", textCommittees.technicalCommittee)}
+          {renderTextCommitteeCategory("Speakers", textCommittees.speakers)}
+          {renderTextCommitteeCategory("International Advisory Committee", textCommittees.internationalAdvisoryCommittee, true)}
+          {renderTextCommitteeCategory("National Advisory Committee", textCommittees.nationalAdvisoryCommittee, true)}
         </div>
       </div>
     </section>
