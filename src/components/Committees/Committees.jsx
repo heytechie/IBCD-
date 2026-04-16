@@ -49,7 +49,7 @@ const Committees = () => {
   return (
     <section id="committees" className="committees-section">
       <div className="container">
-        <h2 className="section-title">Organizing Committees</h2>
+        <h2 className="section-title">Committees</h2>
 
         <div className="committee-content flex-column gap-3" style={{ gap: '4rem' }}>
           {renderCommitteeCategory("General Chairs", committees.generalChairs,)}
@@ -62,6 +62,7 @@ const Committees = () => {
         <div className="text-committees-grid" style={{ marginTop: '4rem' }}>
           {renderTextCommitteeCategory("Organising Committee", textCommittees.organisingCommittee)}
           {renderTextCommitteeCategory("Technical Committee", textCommittees.technicalCommittee)}
+          {renderTextCommitteeCategory("Technical Review Committee", textCommittees.technicalReviewCommittee)}
           {renderTextCommitteeCategory("Speakers", textCommittees.speakers)}
           {renderTextCommitteeCategory("International Advisory Committee", textCommittees.internationalAdvisoryCommittee, true)}
           {renderTextCommitteeCategory("National Advisory Committee", textCommittees.nationalAdvisoryCommittee, true)}

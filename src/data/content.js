@@ -64,11 +64,28 @@ export const committees = {
 }
 
 export const textCommittees = {
+  technicalCommittee: [
+    "Dr. Praveen Lalwani",
+    "Dr. Ramraj Dangi",
+    "Dr. Ashish Kesarwany",
+    "Dr. lokesh",
+    "Dr. G. Vishnuvarthanan",
+    "Dr. L. Sathish Kumar",
+    "Mr. Sini Moxon Lee",
+    "Mr. Karthik"
+  ],
   organisingCommittee: [
     "Dr. Ajay Kumar Bhurjee",
-    "Dr. Ashish Keserwany",
+    "Dr. Navneet Kumar Verma",
     "Dr. Ankit Pal",
-    "Dr. Palash"
+    "Dr. Palash",
+    "Dr. Manisha Jain",
+    "Dr. D Harish Babu",
+    "Dr. Dilip Kumar",
+    "Dr. Manisha Singh",
+    "Dr. Kiran Behra",
+    "Dr. Hemanta Kalita",
+    "Dr. Santosh kumar Bhal"
   ],
   internationalAdvisoryCommittee: [
     "Dr. Mehakpreet Singh (University of Limerick, Limerick V94 T9PX, Ireland)",
@@ -111,7 +128,7 @@ export const textCommittees = {
     "Dr. Pankaj Kumar, MANIT Bhopal.",
     "Dr. Munesh Chandra Trivedi, Professor and Head, Pandit Sunderlal Sharma Central Institute of Vocational Education, Bhopal."
   ],
-  technicalCommittee: [
+  technicalReviewCommittee: [
     "Dr. Somesh, Assistant Professor, IIITM Gwalior,",
     "Dr. Sumit Kumar Singh, Assistant Professor, IIIT Pune",
     "Dr. Preeti, Assistant Professor, NIT Raipur",
@@ -124,17 +141,17 @@ export const textCommittees = {
     "Dr. Subhash Kumar Patel, Assistant Professor, JNU Delhi."
   ],
   speakers: [
-    "Dr. Ram Bilas Pachori, Professor, IIT Indore",
-    "Dr. Kapil Ahuja, Professor, IIT Indore",
+    "Dr. Ram Bilas Pachori, Professor,  IIT Indore",
+    "Dr. Kapil Ahuja, Professor,  IIT Indore",
     "Dr. Philip Virgil Astillo, Associate Professor, Department Computer Engineering University of San Carlos, Philippines",
     "Dr. Ashutosh Singh, Director, IIIT Bhopal",
     "Dr. Ruhul Amin, Associate Professor, IIIT Nayapura",
     "Dr. Damoder Reddy, Associate Professor, NIT Goa",
     "Dr. Brajesh Kumar Jha , Associate professor PDEU Gandhinagar",
     "Dr. Pratyay Kuila",
-    "Dr. Jagdish Bansal Professor South Asian University New Delhi",
+    "Dr. Jagdish Bansal  Professor South Asian University New Delhi",
     "Dr. Kunwer Singh Mathur , Associate Professor , JNU Delhi",
     "Dr. Alekh Gour , Associate Professor, IIM Sirmaur",
-    "Dr. Sharada Nandan Raw , Associate Professor, NIT Raipur"
+    "Dr. Sharada Nandan  Raw , Associate Professor, NIT Raipur"
   ]
 };
