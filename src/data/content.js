@@ -44,7 +44,7 @@ export const committees = {
     { name: "Dr. Fernando Ortiz-Rodríguez", affiliation: "Autonomous University of Tamaulipas, Mexico", image: "/FernandoOrtiz.jpg" },
     { name: "Dr. Shishir Kumar Shandilya", affiliation: "Devi Ahilya Vishwavidyalaya", image: "/ShishirKumar.jpg" },
     { name: "Dr. Poonkuntran Shanmugam", affiliation: "Executive Dean CSE, VIT Bhopal", image: "/PoonkuthranC.jpg" },
-    { name: "Dr. Jose L. Martinez-Rodriguez", affiliation: "Autonomous University of Tamaulipas", image: "/JoseMartinez.jpeg" }
+    { name: "Dr. Jose L. Martinez", affiliation: "Autonomous University of Tamaulipas", image: "/JoseMartinez.jpeg" }
   ],
   "conferenceChair": [
     { name: "Dr. Hemant Kumar Nashine", affiliation: "Dean, SASL VIT Bhopal", image: "/HemantKumar.jpg" }
