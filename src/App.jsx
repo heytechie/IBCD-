@@ -1,29 +1,20 @@
 import React from 'react';
+import { Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar/Navbar';
-import Hero from './components/Hero/Hero';
-import ImportantDates from './components/ImportantDates/ImportantDates';
-import About from './components/About/About';
-import Objectives from './components/Objectives/Objectives';
-import Speakers from './components/Speakers/Speakers';
-import Registration from './components/Registration/Registration';
-import Submission from './components/Submission/Submission';
-import Committees from './components/Committees/Committees';
-import CampusAndCity from './components/CampusAndCity/CampusAndCity';
 import Footer from './components/Footer/Footer';
+import HomePage from './pages/HomePage';
+import SubmissionPage from './pages/SubmissionPage';
 
 function App() {
   return (
     <>
       <Navbar />
-      <Hero />
-      <ImportantDates />
-      <About />
-      <Objectives />
-      <Speakers />
-      <Registration />
-      <Submission />
-      <Committees />
-      <CampusAndCity />
+      <main>
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/submit" element={<SubmissionPage />} />
+        </Routes>
+      </main>
       <Footer />
     </>
   );

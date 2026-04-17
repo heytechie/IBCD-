@@ -1,9 +1,11 @@
 import React, { useState, useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { Calendar, MapPin, Send } from 'lucide-react';
 import './Hero.css';
 
 const Hero = () => {
   const [timeLeft, setTimeLeft] = useState({ days: 0, hours: 0, minutes: 0, seconds: 0 });
+  const navigate = useNavigate();
 
   useEffect(() => {
     const targetDate = new Date('October 15, 2026 00:00:00').getTime();
@@ -39,7 +41,7 @@ const Hero = () => {
             Mathematics and Data <br />
             Analytics <span className="text-accent">(IBCD 2026)</span>
           </h1>
-          
+
           <div className="hero-meta d-flex gap-2">
             <span className="d-flex align-center gap-1"><Calendar size={20} /> 15th-16th October 2026</span>
             <span className="d-flex align-center gap-1"><MapPin size={20} /> VIT Bhopal University, MP, India</span>
@@ -50,10 +52,10 @@ const Hero = () => {
           </div>
 
           <div className="hero-actions d-flex gap-1">
-            <button className="btn hero-btn-primary d-flex align-center gap-1">
+            {/* <button className="btn hero-btn-primary d-flex align-center gap-1" onClick={() => navigate('/submit')}>
               Submit Abstract <Send size={16} />
-            </button>
-            <button className="btn hero-btn-outline" onClick={() => document.getElementById('registration').scrollIntoView({ behavior: 'smooth' })}>
+            </button> */}
+            <button className="btn hero-btn-outline" onClick={() => navigate('/submit')}>
               Register Now
             </button>
           </div>
