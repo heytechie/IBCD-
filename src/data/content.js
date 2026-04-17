@@ -33,6 +33,7 @@ export const paymentDetails = {
 };
 
 export const importantDates = [
+  { title: "Submission Deadline(Abstract)", date: "15 May 2026", icon: "file" },
   { title: "Submission Deadline(full paper)", date: "15 June 2026", icon: "file" },
   { title: "Acceptance Notification", date: "30 July 2026", icon: "check" },
   { title: "Early Bird Registration", date: "10 Sept 2026", icon: "tag" },
