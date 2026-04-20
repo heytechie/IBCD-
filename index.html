@@ -34,9 +34,9 @@
 </head>
 
 <body>
-  <!-- Hidden text for crawlers that don't execute JavaScript -->
-  <div style="display: none;" aria-hidden="true">
-    This conference is powered by Microsoft Conference Management Toolkit (CMT).
+  <!-- Visually hidden text for crawlers that don't execute JavaScript (avoids display:none penalties) -->
+  <div style="position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0;">
+    The Microsoft CMT service was used for managing the peer-reviewing process for this conference. This service was provided for free by Microsoft and they bore all expenses, including costs for Azure cloud services as well as for software development and support.
   </div>
   <div id="root"></div>
   <script type="module" src="/src/main.jsx"></script>

@@ -50,6 +50,9 @@ const Footer = () => {
                 </div>
 
                 <div className="footer-bottom text-center">
+                    <p className="cmt-ack" style={{ fontSize: '12px', color: '#ccc', marginBottom: '10px', maxWidth: '800px', margin: '0 auto 10px auto' }}>
+                        The Microsoft CMT service was used for managing the peer-reviewing process for this conference. This service was provided for free by Microsoft and they bore all expenses, including costs for Azure cloud services as well as for software development and support.
+                    </p>
                     <p>&copy; {new Date().getFullYear()} IBCD Conference | VIT Bhopal University. All Rights Reserved.</p>
                 </div>
             </div>
