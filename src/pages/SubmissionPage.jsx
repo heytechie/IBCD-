@@ -168,6 +168,7 @@ const SubmissionPage = () => {
               <span className="bank-label">IFSC / SWIFT</span>
               <span className="bank-val">{paymentDetails.ifsc} / {paymentDetails.swift}</span>
             </div>
+            <span><strong>Note :-</strong> Kindly fill the form in registration link on the right and enter the transaction id there.</span>
           </div>
 
           <div className="portal-card">
@@ -176,15 +177,25 @@ const SubmissionPage = () => {
               Complete your payment first and keep the transaction ID / Receipt ready for the online
               registration form. All abstract and full paper submissions are handled via Microsoft CMT.
             </p>
-            <a
-              href="https://cmt3.research.microsoft.com/IBCD2026"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="portal-btn"
-            >
-              Go to CMT Portal →
-            </a>
+            <div className="registration-btns">
+              <a
+                href="https://forms.gle/4ZWUaQkTL56CXHek6"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="portal-btn"
+              >
+                Register here →
+              </a>
 
+              <a
+                href="https://cmt3.research.microsoft.com/IBCD2026/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="portal-btn"
+              >
+                Submission portal →
+              </a>
+            </div>
             <div className="portal-note">
               <Info size={16} />
               Registration fee includes access to all technical sessions, conference kit,

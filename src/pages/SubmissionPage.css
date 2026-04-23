@@ -340,10 +340,16 @@
   margin-bottom: 2rem;
 }
 
+.registration-btns {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem
+}
+
 .portal-btn {
   background: #f8f9fa;
   color: #0c2b48;
-  border: 1px solid #eee;
+  border: 1px solid #0c2b48;
   padding: 1rem 2rem;
   font-size: 0.9rem;
   font-weight: 600;
