@@ -86,7 +86,8 @@ export const textCommittees = {
     "Dr. Manisha Singh",
     "Dr. Kiran Behra",
     "Dr. Hemanta Kalita",
-    "Dr. Santosh kumar Bhal"
+    "Dr. Santosh kumar Bhal",
+    "Dr. Sanju Tiwari, Sharda University",
   ],
   internationalAdvisoryCommittee: [
     "Dr. Mehakpreet Singh (University of Limerick, Limerick V94 T9PX, Ireland)",
