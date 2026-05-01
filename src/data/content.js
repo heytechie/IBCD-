@@ -147,7 +147,7 @@ export const textCommittees = {
     "Dr. Kapil Ahuja, Professor,  IIT Indore",
     "Dr. Philip Virgil Astillo, Associate Professor, Department Computer Engineering University of San Carlos, Philippines",
     "Dr. Ashutosh Singh, Director, IIIT Bhopal",
-    "Dr. Ruhul Amin, Associate Professor, IIIT Nayapura",
+    "Dr. Ruhul Amin, Associate Professor, IIIT Naya Raipur",
     "Dr. Damoder Reddy, Associate Professor, NIT Goa",
     "Dr. Brajesh Kumar Jha , Associate professor PDEU Gandhinagar",
     "Dr. Pratyay Kuila",
