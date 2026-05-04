@@ -9,7 +9,9 @@ export const speakers = [
   { name: "Dr. Jagdish Bansal", affiliation: "South Asian University", image: "/JagdishChand.png" },
   { name: "Dr. Kunwer Singh Mathur", affiliation: "JNU Delhi", image: "/KunwerSingh.jpeg" },
   { name: "Dr. Alekh Gour", affiliation: "IIM Sirmaur", image: "/AlekhGour.jpg" },
-  { name: "Dr. Sharada Nandan Raw", affiliation: "NIT Raipur", image: "/SharadaRaw.webp" }
+  { name: "Dr. Sharada Nandan Raw", affiliation: "NIT Raipur", image: "/SharadaRaw.webp" },
+  { name: "Dr. Rajesh Kumar Pandey", affiliation: "Professor, IIT BHU", image: "/RajeshKumar.jpeg" },
+  { name: "Prof. Ranjit Kumar Upadhyay", affiliation: "Professor (HAG) , IIT-ISM Dhanbad", image: "/RanjitKumar.jpeg" },
 ];
 
 export const feesData = {
