@@ -1,9 +1,9 @@
 export const speakers = [
-  { name: "Dr. Rajesh Kumar Pandey", affiliation: "Professor, IIT BHU", image: "/RajeshKumar.jpeg" },
+  { name: "Prof. Chiranjeev Kumar", affiliation: "Professor, IIT(ISM) Dhanbad", image: "/ChiranjeevKumar.jpeg" },
   { name: "Prof. Ranjit Kumar Upadhyay", affiliation: "Professor (HAG) , IIT-ISM Dhanbad", image: "/RanjitKumar.jpeg" },
+  { name: "Dr. Rajesh Kumar Pandey", affiliation: "Professor, IIT BHU", image: "/RajeshKumar.jpeg" },
   { name: "Dr. Jagdish Bansal", affiliation: "South Asian University", image: "/JagdishChand.png" },
   { name: "Dr. Ram Bilas Pachori", affiliation: "IIT Indore", image: "/RamBilas.webp" },
-  { name: "Dr. Ruhul Amin", affiliation: "IIIT Nayapura", image: "/ruhulamin.jpg" },
   { name: "Dr. Ashutosh Singh", affiliation: "IIIT Bhopal", image: "/AshutoshKumar.jpg" },
   { name: "Dr. Philip Virgil Astillo", affiliation: "University of San Carlos", image: "/PhilipVirgil.webp" },
   { name: "Dr. Kapil Ahuja", affiliation: "IIT Indore", image: "/KapilAhuja.jpg" },
@@ -13,6 +13,9 @@ export const speakers = [
   { name: "Dr. Alekh Gour", affiliation: "IIM Sirmaur", image: "/AlekhGour.jpg" },
   { name: "Dr. Sharada Nandan Raw", affiliation: "NIT Raipur", image: "/SharadaRaw.webp" },
   { name: "Dr. Damoder Reddy", affiliation: "NIT Goa", image: "/DamodarReddy.png" },
+  { name: "Dr. Ruhul Amin", affiliation: "IIIT Nayapura", image: "/ruhulamin.jpg" },
+
+
 ];
 
 export const feesData = {
