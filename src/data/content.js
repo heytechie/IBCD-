@@ -4,8 +4,8 @@ export const speakers = [
   { name: "Dr. Jagdish Bansal", affiliation: "South Asian University", image: "/JagdishChand.png" },
   { name: "Dr. Ram Bilas Pachori", affiliation: "IIT Indore", image: "/RamBilas.webp" },
   { name: "Dr. Ruhul Amin", affiliation: "IIIT Nayapura", image: "/ruhulamin.jpg" },
-  { name: "Dr. Philip Virgil Astillo", affiliation: "University of San Carlos", image: "/PhilipVirgil.webp" },
   { name: "Dr. Ashutosh Singh", affiliation: "IIIT Bhopal", image: "/AshutoshKumar.jpg" },
+  { name: "Dr. Philip Virgil Astillo", affiliation: "University of San Carlos", image: "/PhilipVirgil.webp" },
   { name: "Dr. Kapil Ahuja", affiliation: "IIT Indore", image: "/KapilAhuja.jpg" },
 
   { name: "Dr. Brajesh Kumar Jha", affiliation: "PDEU Gandhinagar", image: "/BrajeshKumar.jpg" },
