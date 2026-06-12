@@ -55,7 +55,7 @@ export const committees = {
     { name: "Dr. Jose L. Martinez", affiliation: "Autonomous University of Tamaulipas", image: "/JoseMartinez.jpeg" }
   ],
   "conferenceChair": [
-    { name: "Dr. Hemant Kumar Nashine", affiliation: "Dean, SASL VIT Bhopal", image: "/HemantKumar.jpg" }
+    { name: "Dr. Hemant Kumar Nashine", affiliation: "Dean, SASL VIT Bhopal", image: "/HemantKumarSir.jpg" }
   ],
   organizingSecretaries: [
     { name: "Dr. Akshara Makrariya", affiliation: "VIT Bhopal", image: "/AksharaMakrariya.jpeg" },
