@@ -50,7 +50,9 @@ const Hero = () => {
           <div className="hero-mode">
             Hybrid — Offline for all sessions; Online only for International Participants
           </div>
-
+          <div className="hero-mode" style={{ marginTop: '-1rem' }}>
+            Publication Info: All the accepted papers will be published on Springer Conference Proceedings (Scopus Indexed).
+          </div>
           <div className="hero-actions d-flex gap-1">
             {/* <button className="btn hero-btn-primary d-flex align-center gap-1" onClick={() => navigate('/submit')}>
               Submit Abstract <Send size={16} />
