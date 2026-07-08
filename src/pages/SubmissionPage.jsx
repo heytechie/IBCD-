@@ -154,11 +154,15 @@ const SubmissionPage = () => {
             <h3>Bank Transfer Details</h3>
             <div className="bank-row">
               <span className="bank-label">Account Name</span>
-              <span className="bank-val">IBCD 2026 Secretariat</span>
+              <span className="bank-val">{paymentDetails.accountHolder}</span>
             </div>
             <div className="bank-row">
               <span className="bank-label">Bank Name</span>
               <span className="bank-val">{paymentDetails.bankName}</span>
+            </div>
+            <div className="bank-row">
+              <span className="bank-label">Branch Code</span>
+              <span className="bank-val">{paymentDetails.branchCode}</span>
             </div>
             <div className="bank-row">
               <span className="bank-label">A/C Number</span>
