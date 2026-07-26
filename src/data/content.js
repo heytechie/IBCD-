@@ -42,8 +42,7 @@ export const paymentDetails = {
 };
 
 export const importantDates = [
-  { title: "Submission Deadline(Abstract)", date: "15 June 2026", icon: "file" },
-  { title: "Submission Deadline(full paper)", date: "30 July 2026", icon: "file" },
+  { title: "Submission Deadline(full paper)", date: "15 Aug 2026", icon: "file" },
   { title: "Acceptance Notification", date: "31 August 2026", icon: "check" },
   { title: "Early Bird Registration", date: "10 Sept 2026", icon: "tag" },
   { title: "International Conference Dates", date: "15-16 Oct 2026", icon: "calendar" }
@@ -57,7 +56,6 @@ export const committees = {
     { name: "Dr. Jose L. Martinez", affiliation: "Autonomous University of Tamaulipas", image: "/JoseMartinez.jpeg" }
   ],
   "conferenceChair": [
-    { name: "Dr. Hemant Kumar Nashine", affiliation: "Dean, SASL VIT Bhopal", image: "/HemantKumarSir.jpg" },
     { name: " Dr. Zaheer Kareem Ansari", affiliation: "Dean (I/C), SASL VIT Bhopal", image: "/image.png" }
   ],
   organizingSecretaries: [
