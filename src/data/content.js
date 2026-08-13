@@ -42,13 +42,26 @@ export const paymentDetails = {
 };
 
 export const importantDates = [
-  { title: "Submission Deadline(full paper)", date: "15 Aug 2026", icon: "file" },
-  { title: "Acceptance Notification", date: "31 August 2026", icon: "check" },
-  { title: "Early Bird Registration", date: "10 Sept 2026", icon: "tag" },
+  { title: "Submission Deadline (full paper)", date: "30 August 2026", icon: "file" },
+  { title: "Acceptance Notification", date: "20 September 2026", icon: "check" },
+  { title: "Early Bird Registration", date: "25 September 2026", icon: "tag" },
   { title: "International Conference Dates", date: "15-16 Oct 2026", icon: "calendar" }
 ];
 
 export const committees = {
+  chiefPatrons: [
+    { name: "Dr. G. Viswanathan", affiliation: "Founder & Chancellor, VIT", image: "https://vit.ac.in/wp-content/uploads/2024/01/Dr.G.Viswanathan-Chancellor.webp" }
+  ],
+  patrons: [
+    { name: "Dr. Sankar Viswanathan", affiliation: "Vice President, VIT Bhopal University", image: "https://inspire2027.in/sankar.png" },
+    { name: "Mrs. Kadhambari S. Viswanathan", affiliation: "Assistant Vice President, VIT Bhopal University", image: "https://inspire2027.in/kadambari.png" },
+    { name: "Mrs. Ramani Balasundaram", affiliation: "Trustee, VIT Bhopal University", image: "https://inspire2027.in/trustee.png" }
+  ],
+  coPatrons: [
+    { name: "Dr. Satish Kumar Modh", affiliation: "Vice-Chancellor, VIT Bhopal University", image: "https://inspire2027.in/satish.png" },
+    { name: "Dr. T. B. Sridharan", affiliation: "Pro-Vice Chancellor, VIT Bhopal University", image: "https://inspire2027.in/tb.png" },
+    { name: "Dr. Gyan Prakash Mishra", affiliation: "Registrar, VIT Bhopal University", image: "https://inspire2027.in/kk.png" }
+  ],
   generalChairs: [
     { name: "Dr. Fernando Ortiz-Rodríguez", affiliation: "Autonomous University of Tamaulipas, Mexico", image: "/FernandoOrtiz.jpg" },
     { name: "Dr. Shishir Kumar Shandilya", affiliation: "Devi Ahilya Vishwavidyalaya", image: "/ShishirKumar.jpg" },

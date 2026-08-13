@@ -52,11 +52,15 @@ const Committees = () => {
         <h2 className="section-title">Committees</h2>
 
         <div className="committee-content flex-column gap-3" style={{ gap: '4rem' }}>
-          {renderCommitteeCategory("General Chairs", committees.generalChairs,)}
-          {renderCommitteeCategory("Conference Chair", committees.conferenceChair,)}
-          {renderCommitteeCategory("Organizing Secretaries", committees.organizingSecretaries,)}
-          {renderCommitteeCategory("Conveners", committees.conveners,)}
-          {renderCommitteeCategory("Co-Conveners", committees.coconveners,)}
+          {renderCommitteeCategory("Chief Patron", committees.chiefPatrons)}
+          {renderCommitteeCategory("Patrons", committees.patrons)}
+          {renderCommitteeCategory("Co-Patrons", committees.coPatrons)}
+          {renderCommitteeCategory("Academic Patrons", committees.academicPatrons)}
+          {renderCommitteeCategory("General Chairs", committees.generalChairs)}
+          {renderCommitteeCategory("Conference Chair", committees.conferenceChair)}
+          {renderCommitteeCategory("Organizing Secretaries", committees.organizingSecretaries)}
+          {renderCommitteeCategory("Conveners", committees.conveners)}
+          {renderCommitteeCategory("Co-Conveners", committees.coconveners)}
         </div>
 
         <div className="text-committees-grid" style={{ marginTop: '4rem' }}>
