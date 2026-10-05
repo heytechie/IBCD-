@@ -1,11 +1,9 @@
 import React, { useState, useEffect } from 'react';
-import { useNavigate } from 'react-router-dom';
-import { Calendar, MapPin, Send } from 'lucide-react';
+import { Calendar, MapPin } from 'lucide-react';
 import './Hero.css';
 
 const Hero = () => {
   const [timeLeft, setTimeLeft] = useState({ days: 0, hours: 0, minutes: 0, seconds: 0 });
-  const navigate = useNavigate();
 
   useEffect(() => {
     const targetDate = new Date('October 15, 2026 00:00:00').getTime();
@@ -52,14 +50,6 @@ const Hero = () => {
           </div>
           <div className="hero-mode" style={{ marginTop: '-1rem' }}>
             Publication Info: All the accepted papers will be published on Springer Conference Proceedings (Scopus Indexed).
-          </div>
-          <div className="hero-actions d-flex gap-1">
-            {/* <button className="btn hero-btn-primary d-flex align-center gap-1" onClick={() => navigate('/submit')}>
-              Submit Abstract <Send size={16} />
-            </button> */}
-            <button className="btn hero-btn-outline" onClick={() => navigate('/submit')}>
-              Register Now
-            </button>
           </div>
         </div>
 
