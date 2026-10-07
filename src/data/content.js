@@ -78,7 +78,7 @@ export const committees = {
   conveners: [{ name: "Dr. Anant Kant Shukla", affiliation: "VIT Bhopal", image: "/AnantKantShukla.jpg" },
   { name: "Dr. Bhakti Parashar", affiliation: "VIT Bhopal", image: "/BhaktiParashar.jpeg" }],
   coconveners: [{ name: "Dr. Ramraj Dangi", affiliation: "VIT Bhopal", image: "/RamrajDangi.jpg" },
-  { name: "Dr. Sheerin Kayenat", affiliation: "VIT Bhopal", image: "/SheerinKayenat.jpg" },
+  { name: "Dr. Saurav Prasad", affiliation: "VIT Bhopal", image: "/saurav.png" },
   { name: "Dr. Juhi kesarwani", affiliation: "VIT Bhopal", image: "/JuhiKesarwani.jpg" },
   { name: "Dr. Ashish Kesarwany", affiliation: "VIT Bhopal", image: "/AshishKesarwany.png" },
   { name: "Dr. Lokesh Malviya", affiliation: "VIT Bhopal", image: "/LokeshMalviya.png" },
@@ -94,7 +94,8 @@ export const textCommittees = {
     "Dr. G. Vishnuvarthanan",
     "Dr. L. Sathish Kumar",
     "Mr. Sini Moxon Lee",
-    "Mr. Karthik"
+    "Mr. Karthik",
+    "Dr. Sonjoy Pan"
   ],
   organisingCommittee: [
     "Dr. Ajay Kumar Bhurjee",
