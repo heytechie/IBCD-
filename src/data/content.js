@@ -21,8 +21,9 @@ export const speakers = [
 
 export const feesData = {
   national: [
-    { category: "Research Scholar / Students", earlyBird: "Rs.2500/-", afterDue: "Rs.3000/-" },
-    { category: "Faculty", earlyBird: "Rs. 3500/-", afterDue: "Rs. 4500/-" },
+    { category: "VIT Bhopal Students & Scholars", earlyBird: "Rs. 501/-", afterDue: "Rs. 501/-" },
+    { category: "Research Scholar / UG-PG Students - Other Institutions", earlyBird: "Rs. 2500/-", afterDue: "Rs. 2500/-" },
+    { category: "Faculty - Other Institutions", earlyBird: "Rs. 3500/-", afterDue: "Rs. 3500/-" },
     { category: "Industry Expert", earlyBird: "Rs. 5000/-", afterDue: "Rs. 6000/-" }
   ],
   international: [
@@ -44,9 +45,22 @@ export const paymentDetails = {
 export const importantDates = [
   { title: "Submission Deadline (full paper)", date: "15 September 2026", icon: "file" },
   { title: "Acceptance Notification", date: "20 September 2026", icon: "check" },
-  { title: "Early Bird Registration", date: "25 September 2026", icon: "tag" },
   { title: "International Conference Dates", date: "15-16 Oct 2026", icon: "calendar" }
 ];
+
+export const awardsData = {
+  heading: "Call For Awards",
+  awards: [
+    "Young Scientist Award",
+    "Best Oral Presentation Award",
+    "Best Poster Presentation Award"
+  ],
+  eligibility: "The eligibility of the Young Scientist Award is age less than 35 years.",
+  invitation: "You are invited to a presentation of your work.",
+  facultyNote: "Opportunity to deliver a contributed talk/invited talk for registered faculty members also.",
+  link: "https://forms.gle/sLYarexm4P4TDbRY9",
+  qr: "/award-qr.png"
+};
 
 export const committees = {
   chiefPatrons: [

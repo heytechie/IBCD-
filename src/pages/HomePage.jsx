@@ -1,5 +1,6 @@
 import React from 'react';
 import Hero from '../components/Hero/Hero';
+import Awards from '../components/Awards/Awards';
 import ImportantDates from '../components/ImportantDates/ImportantDates';
 import About from '../components/About/About';
 import Objectives from '../components/Objectives/Objectives';
@@ -11,6 +12,7 @@ const HomePage = () => {
   return (
     <>
       <Hero />
+      <Awards />
       <ImportantDates />
       <About />
       <Objectives />
