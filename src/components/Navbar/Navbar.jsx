@@ -82,6 +82,7 @@ const Navbar = () => {
           <a href="#speakers" className={activeSection === 'speakers' && location.pathname === '/' ? 'active' : ''} onClick={(e) => handleNavClick(e, 'speakers')}>Speakers</a>
           <a href="/submit" className={location.pathname === '/submit' ? 'active' : ''} onClick={(e) => handleNavClick(e, 'submission')}>Call for Papers</a>
           <a href="#committees" className={activeSection === 'committees' && location.pathname === '/' ? 'active' : ''} onClick={(e) => handleNavClick(e, 'committees')}>Committee</a>
+          <button className="btn" onClick={(e) => handleNavClick(e, 'registration')}>Register Now</button>
         </div>
       </div>
     </nav>

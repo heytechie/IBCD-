@@ -183,6 +183,15 @@ const SubmissionPage = () => {
             </p>
             <div className="registration-btns">
               <a
+                href="https://forms.gle/4ZWUaQkTL56CXHek6"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="portal-btn"
+              >
+                Register here →
+              </a>
+
+              <a
                 href="https://cmt3.research.microsoft.com/IBCD2026/"
                 target="_blank"
                 rel="noopener noreferrer"
