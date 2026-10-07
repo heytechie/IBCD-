@@ -368,6 +368,22 @@
   background: #e9ecef;
 }
 
+.registration-qr {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1.5rem;
+  color: #777;
+  font-size: 0.8rem;
+}
+
+.registration-qr img {
+  width: 140px;
+  height: 140px;
+  object-fit: contain;
+  background-color: #fff;
+}
+
 .portal-note {
   display: flex;
   gap: 0.75rem;

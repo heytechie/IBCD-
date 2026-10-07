@@ -1,6 +1,7 @@
 import React from 'react';
 import { BookOpen, FileText, Info } from 'lucide-react';
 import { importantDates, feesData, paymentDetails } from '../data/content';
+import Awards from '../components/Awards/Awards';
 import './SubmissionPage.css';
 
 const SubmissionPage = () => {
@@ -25,7 +26,7 @@ const SubmissionPage = () => {
         <h2 className="sub-section-title">Important Deadlines</h2>
         <div className="timeline-grid">
           {importantDates.map((item, idx) => {
-            if (idx == 3) {
+            if (idx == 2) {
               return;
             }
             const isLast = idx === importantDates.length - 1;
@@ -115,6 +116,8 @@ const SubmissionPage = () => {
         </div>
       </section>
 
+      <Awards />
+
       {/* Registration Fee Structure Section */}
       <section className="sub-section sub-page-container">
         <h2 className="sub-section-title" style={{ textAlign: 'center' }}>Registration Fee Structure</h2>
@@ -199,6 +202,10 @@ const SubmissionPage = () => {
               >
                 Submission portal →
               </a>
+            </div>
+            <div className="registration-qr">
+              <img src="/registration-qr.png" alt="QR code for registration" />
+              <span>Scan to register</span>
             </div>
             <div className="portal-note">
               <Info size={16} />
