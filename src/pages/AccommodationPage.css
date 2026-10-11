@@ -1,0 +1,492 @@
+/* src/pages/AccommodationPage.css */
+
+.accomm-page-wrapper {
+  color: var(--color-text-dark, #1a1a1a);
+  background-color: var(--color-bg, #ffffff);
+  font-family: var(--font-sans, 'Inter', system-ui, -apple-system, sans-serif);
+  padding-bottom: 5rem;
+}
+
+/* Header Banner */
+.accomm-page-header {
+  background-color: #0c2b48;
+  padding: 7.5rem 0 3.5rem;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.accomm-page-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.accomm-breadcrumbs {
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 1rem;
+}
+
+.accomm-breadcrumbs a {
+  color: rgba(255, 255, 255, 0.9);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.accomm-breadcrumbs a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.accomm-breadcrumbs span {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.accomm-title {
+  font-size: 2.4rem;
+  color: #ffffff;
+  font-weight: 700;
+  margin: 0 0 0.75rem 0;
+  font-family: var(--font-serif, 'Playfair Display', serif);
+}
+
+.accomm-subtitle {
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 1rem;
+  max-width: 850px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+/* Section */
+.accomm-section {
+  padding-top: 2.5rem;
+  padding-bottom: 3rem;
+}
+
+/* Prominent Notice Banner */
+.accomm-notice-box {
+  background: #fff8eb;
+  border-left: 5px solid #d97706;
+  border-top: 1px solid #fef3c7;
+  border-right: 1px solid #fef3c7;
+  border-bottom: 1px solid #fef3c7;
+  padding: 1.25rem 1.5rem;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 6px rgba(217, 119, 6, 0.08);
+}
+
+.accomm-notice-icon-wrapper {
+  color: #d97706;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.accomm-notice-content {
+  flex: 1;
+}
+
+.accomm-notice-text {
+  margin: 0;
+  font-size: 1.05rem;
+  line-height: 1.45;
+  color: #92400e;
+}
+
+.accomm-notice-text strong {
+  color: #b45309;
+}
+
+/* Toolbar (Location Filter) */
+.accomm-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1.25rem;
+  background: #f8f9fc;
+  padding: 1rem 1.25rem;
+  border-radius: 8px;
+  border: 1px solid #e9ecef;
+  margin-bottom: 2rem;
+}
+
+.accomm-filter-group {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.accomm-filter-label {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #555555;
+  margin-right: 0.25rem;
+}
+
+.accomm-pill-btn {
+  background: #ffffff;
+  color: #333333;
+  border: 1px solid #ced4da;
+  padding: 0.45rem 0.9rem;
+  font-size: 0.85rem;
+  font-weight: 500;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.accomm-pill-btn:hover {
+  background: #edf2f7;
+  color: #0c2b48;
+}
+
+.accomm-pill-btn.active {
+  background: #0c2b48;
+  color: #ffffff;
+  border-color: #0c2b48;
+  font-weight: 600;
+}
+
+/* Card Grid Layout */
+.accomm-cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+  gap: 1.75rem;
+}
+
+.accomm-card {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.accomm-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 24px rgba(12, 43, 72, 0.1);
+}
+
+.accomm-card-header {
+  background: #0c2b48;
+  color: #ffffff;
+  padding: 1.25rem 1.5rem;
+  border-bottom: 2px solid #f39c12;
+}
+
+.accomm-card-title-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.accomm-card-city-badge {
+  background: rgba(255, 255, 255, 0.2);
+  color: #ffffff;
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 0.2rem 0.6rem;
+  border-radius: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.accomm-card-sno {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #f39c12;
+}
+
+.accomm-card-title {
+  color: #ffffff;
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin: 0;
+  font-family: var(--font-serif, 'Playfair Display', serif);
+  line-height: 1.3;
+}
+
+.accomm-card-body {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  flex: 1;
+}
+
+.accomm-info-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  font-size: 0.9rem;
+  color: #4b5563;
+}
+
+.accomm-icon {
+  color: #0c2b48;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.accomm-info-text {
+  line-height: 1.45;
+  color: #374151;
+}
+
+.accomm-contact-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.accomm-contact-name {
+  font-weight: 600;
+  color: #1f2937;
+}
+
+.accomm-phone-link {
+  color: #0c2b48;
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  transition: color 0.2s ease;
+}
+
+.accomm-phone-link:hover {
+  color: #d32f2f;
+}
+
+.accomm-website-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.accomm-website-link {
+  color: #0c2b48;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  transition: color 0.2s ease;
+}
+
+.accomm-website-link:hover {
+  color: #d32f2f;
+}
+
+.accomm-no-website {
+  font-size: 0.85rem;
+  color: #6b7280;
+}
+
+/* Tariff Subtable */
+.accomm-tariff-section {
+  margin-top: 0.5rem;
+  border-top: 1px solid #f3f4f6;
+  padding-top: 1rem;
+}
+
+.accomm-tariff-heading {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: #0c2b48;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 0.65rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-family: var(--font-sans, 'Inter', sans-serif);
+}
+
+.accomm-tariff-table-wrap {
+  overflow-x: auto;
+  border: 1px solid #e5e7eb;
+  border-radius: 6px;
+}
+
+.accomm-card-subtable {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.82rem;
+  text-align: left;
+}
+
+.accomm-card-subtable th {
+  background: #f8fafc;
+  color: #475569;
+  font-weight: 600;
+  padding: 0.5rem 0.65rem;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.accomm-card-subtable td {
+  padding: 0.5rem 0.65rem;
+  border-bottom: 1px solid #f1f5f9;
+  color: #334155;
+  vertical-align: middle;
+}
+
+.accomm-card-subtable tr:last-child td {
+  border-bottom: none;
+}
+
+.room-type-cell {
+  font-weight: 600;
+  color: #1e293b;
+}
+
+.room-rate-cell {
+  font-weight: 700;
+  color: #0c2b48;
+  white-space: nowrap;
+}
+
+.room-count-cell {
+  text-align: center;
+  font-weight: 600;
+}
+
+.room-remark-cell {
+  font-size: 0.78rem;
+  color: #64748b;
+}
+
+.accomm-tariff-footnote {
+  font-size: 0.75rem;
+  color: #6b7280;
+  line-height: 1.4;
+  margin-top: 0.6rem;
+  margin-bottom: 0;
+  font-style: italic;
+}
+
+/* Card Action Footer */
+.accomm-card-footer {
+  padding: 1rem 1.5rem;
+  background: #f8f9fc;
+  border-top: 1px solid #e5e7eb;
+  display: flex;
+  gap: 0.75rem;
+  margin-top: auto;
+}
+
+.accomm-call-btn,
+.accomm-visit-btn {
+  flex: 1;
+  padding: 0.6rem 0.8rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  border-radius: 6px;
+  text-align: center;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.accomm-call-btn {
+  background: #0c2b48;
+  color: #ffffff;
+  border: 1px solid #0c2b48;
+}
+
+.accomm-call-btn:hover {
+  background: #081d31;
+}
+
+.accomm-visit-btn {
+  background: #ffffff;
+  color: #0c2b48;
+  border: 1px solid #cbd5e1;
+}
+
+.accomm-visit-btn:hover {
+  background: #edf2f7;
+  border-color: #0c2b48;
+}
+
+/* Tourism Box */
+.accomm-tourism-box {
+  background: #f1f5fb;
+  border: 1px solid #dbeafe;
+  border-radius: 8px;
+  padding: 1.25rem 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-top: 2rem;
+}
+
+.accomm-tourism-icon {
+  color: #0c2b48;
+  flex-shrink: 0;
+}
+
+.accomm-tourism-text {
+  margin: 0;
+  font-size: 0.95rem;
+  color: #1e3a8a;
+}
+
+.accomm-tourism-link {
+  color: #0c2b48;
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.accomm-tourism-link:hover {
+  color: #d32f2f;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .accomm-title {
+    font-size: 2rem;
+  }
+  
+  .accomm-cards-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .accomm-toolbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 600px) {
+  .accomm-page-header {
+    padding: 6.5rem 0 2.5rem;
+  }
+
+  .accomm-title {
+    font-size: 1.6rem;
+  }
+
+  .accomm-notice-box {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+
+  .accomm-card-footer {
+    flex-direction: column;
+  }
+}

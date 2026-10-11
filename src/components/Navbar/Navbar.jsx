@@ -33,18 +33,17 @@ const Navbar = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, [location.pathname]);
 
-  useEffect(() => {
-    if (location.pathname === '/submit') {
-      setActiveSection('submission');
-    }
-  }, [location.pathname]);
-
   const handleNavClick = (e, id) => {
     e.preventDefault();
     setMobileMenuOpen(false);
 
     if (id === 'submission' || id === 'registration') {
       navigate('/submit');
+      return;
+    }
+
+    if (id === 'accommodation') {
+      navigate('/accommodation');
       return;
     }
 
@@ -82,6 +81,7 @@ const Navbar = () => {
           <a href="#speakers" className={activeSection === 'speakers' && location.pathname === '/' ? 'active' : ''} onClick={(e) => handleNavClick(e, 'speakers')}>Speakers</a>
           <a href="/submit" className={location.pathname === '/submit' ? 'active' : ''} onClick={(e) => handleNavClick(e, 'submission')}>Call for Papers</a>
           <a href="#committees" className={activeSection === 'committees' && location.pathname === '/' ? 'active' : ''} onClick={(e) => handleNavClick(e, 'committees')}>Committee</a>
+          <a href="/accommodation" className={location.pathname === '/accommodation' ? 'active' : ''} onClick={(e) => handleNavClick(e, 'accommodation')}>Accommodation</a>
           <button className="btn" onClick={(e) => handleNavClick(e, 'registration')}>Register Now</button>
         </div>
       </div>
