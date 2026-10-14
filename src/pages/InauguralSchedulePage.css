@@ -1,0 +1,559 @@
+/* src/pages/InauguralSchedulePage.css */
+
+.inaugural-page-wrapper {
+  color: var(--color-text-dark, #1a1a1a);
+  background-color: var(--color-bg, #ffffff);
+  font-family: var(--font-sans, 'Inter', system-ui, -apple-system, sans-serif);
+  padding-bottom: 5rem;
+  min-height: 100vh;
+  width: 100%;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+
+.inaugural-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* ----------------------------------------------------
+   Hero / Header Section (Consistent with Site Style)
+   ---------------------------------------------------- */
+.inaugural-hero {
+  background-color: #0c2b48;
+  padding: 7.5rem 0 3.5rem;
+  border-bottom: 1px solid #e9ecef;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.inaugural-breadcrumbs {
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.inaugural-breadcrumbs a {
+  color: rgba(255, 255, 255, 0.9);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.inaugural-breadcrumbs a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.inaugural-breadcrumb-sep {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.inaugural-breadcrumb-current {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.inaugural-pre-title {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: var(--font-sans, 'Inter', sans-serif);
+  font-size: 0.9rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin: 0 0 0.35rem 0;
+  text-transform: uppercase;
+}
+
+.inaugural-main-title {
+  font-family: var(--font-serif, 'Playfair Display', serif);
+  font-size: 2.2rem;
+  line-height: 1.3;
+  color: #ffffff;
+  font-weight: 700;
+  margin: 0 0 0.85rem 0;
+  max-width: 950px;
+}
+
+.inaugural-organizer {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 1.05rem;
+  margin: 0 0 1.5rem 0;
+  line-height: 1.5;
+}
+
+.inaugural-organizer strong {
+  color: #ffffff;
+}
+
+/* Metadata Pills */
+.inaugural-meta-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
+.meta-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: #ffffff;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  max-width: 100%;
+  box-sizing: border-box;
+  word-break: break-word;
+}
+
+.meta-pill strong {
+  color: #ffffff;
+}
+
+.meta-pill-icon {
+  color: rgba(255, 255, 255, 0.85);
+  flex-shrink: 0;
+}
+
+/* ----------------------------------------------------
+   Main Section Layout
+   ---------------------------------------------------- */
+.inaugural-main-section {
+  padding-top: 2.5rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* ----------------------------------------------------
+   Dignitaries Spotlight
+   ---------------------------------------------------- */
+.inaugural-dignitaries-section {
+  margin-bottom: 2rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.dignitaries-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.dignitary-card {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-top: 4px solid #0c2b48;
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.dignitary-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(12, 43, 72, 0.08);
+}
+
+.dignitary-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.25rem 0.75rem;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  margin-bottom: 0.75rem;
+  background: #e8ecf8;
+  color: #0c2b48;
+  border: 1px solid #c7d2fe;
+}
+
+.dignitary-name {
+  font-family: var(--font-serif, 'Playfair Display', serif);
+  font-size: 1.35rem;
+  color: #0c2b48;
+  margin: 0 0 0.4rem 0;
+  font-weight: 700;
+}
+
+.dignitary-role {
+  color: #555555;
+  font-size: 0.95rem;
+  line-height: 1.45;
+  margin: 0 0 1rem 0;
+}
+
+.dignitary-details-tag {
+  display: inline-block;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #0c2b48;
+  background-color: #f8f9fc;
+  padding: 0.25rem 0.6rem;
+  border-radius: 4px;
+  border: 1px solid #e2e8f0;
+}
+
+/* ----------------------------------------------------
+   Schedule Section & Header Card
+   ---------------------------------------------------- */
+.inaugural-schedule-section {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.04);
+  overflow: hidden;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.schedule-header-card {
+  background: #0c2b48;
+  color: #ffffff;
+  padding: 1.5rem 1.75rem;
+  border-bottom: 1px solid #143e66;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.schedule-header-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 0.75rem;
+}
+
+.tentative-tag {
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.15);
+  color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  padding: 0.25rem 0.75rem;
+  border-radius: 4px;
+}
+
+.schedule-day-badge {
+  background: var(--color-accent, #D32F2F);
+  color: #ffffff;
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 0.25rem 0.75rem;
+  border-radius: 4px;
+  text-transform: uppercase;
+}
+
+.schedule-section-title {
+  font-family: var(--font-serif, 'Playfair Display', serif);
+  font-size: 1.65rem;
+  color: #ffffff;
+  margin: 0 0 0.5rem 0;
+  font-weight: 700;
+}
+
+.schedule-session-subtitle {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 0.85rem;
+  flex-wrap: wrap;
+}
+
+.session-name {
+  color: #e8ecf8;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.session-time-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  background: rgba(255, 255, 255, 0.12);
+  color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  padding: 0.2rem 0.65rem;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+.schedule-venue-bar {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 0.92rem;
+}
+
+.schedule-venue-bar strong {
+  color: #ffffff;
+}
+
+.venue-icon {
+  color: rgba(255, 255, 255, 0.9);
+  flex-shrink: 0;
+}
+
+/* ----------------------------------------------------
+   Semantic Table (Desktop & Tablets)
+   ---------------------------------------------------- */
+.schedule-table-wrapper {
+  width: 100%;
+  overflow-x: auto;
+  box-sizing: border-box;
+}
+
+.inaugural-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.inaugural-table thead th {
+  background-color: #0c2b48;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  padding: 1rem 1.25rem;
+  border-bottom: 1px solid #081d31;
+  white-space: nowrap;
+}
+
+.col-time {
+  width: 160px;
+}
+
+.col-program {
+  width: 40%;
+}
+
+.col-person {
+  width: auto;
+}
+
+.inaugural-table tbody tr {
+  border-bottom: 1px solid #e9ecef;
+  transition: background-color 0.15s ease;
+}
+
+.inaugural-table tbody tr:nth-child(even) {
+  background-color: #f8f9fc;
+}
+
+.inaugural-table tbody tr:hover {
+  background-color: #edf2f7;
+}
+
+.inaugural-table tbody tr.row-highlighted {
+  background-color: #f0f4fa;
+  border-left: 3px solid #0c2b48;
+}
+
+.inaugural-table tbody tr.row-highlighted:hover {
+  background-color: #e5edf7;
+}
+
+.inaugural-table td {
+  padding: 1rem 1.25rem;
+  vertical-align: middle;
+  font-size: 0.95rem;
+}
+
+.time-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  background-color: #0c2b48;
+  color: #ffffff;
+  padding: 0.35rem 0.65rem;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.time-pill-icon {
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.program-title {
+  font-weight: 600;
+  color: #0c2b48;
+  display: inline-block;
+  line-height: 1.4;
+}
+
+.row-highlighted .program-title {
+  color: #0c2b48;
+  font-weight: 700;
+}
+
+.person-text {
+  color: #333333;
+  line-height: 1.45;
+  font-weight: 500;
+}
+
+.row-highlighted .person-text {
+  color: #1a1a1a;
+  font-weight: 600;
+}
+
+.person-none {
+  color: #999999;
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
+/* ----------------------------------------------------
+   Schedule Notice Footer
+   ---------------------------------------------------- */
+.schedule-notice-box {
+  background-color: #f8f9fc;
+  border-top: 1px solid #e9ecef;
+  padding: 1.25rem 1.75rem;
+  color: #555555;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  box-sizing: border-box;
+}
+
+.schedule-notice-box strong {
+  color: #0c2b48;
+}
+
+/* ----------------------------------------------------
+   Responsive Mobile Card Transformation
+   ---------------------------------------------------- */
+@media (max-width: 768px) {
+  .inaugural-hero {
+    padding: 6.5rem 0 2.5rem;
+  }
+
+  .inaugural-main-title {
+    font-size: 1.55rem;
+  }
+
+  .inaugural-pre-title {
+    font-size: 0.85rem;
+  }
+
+  .schedule-header-card {
+    padding: 1.25rem 1rem;
+  }
+
+  .schedule-section-title {
+    font-size: 1.35rem;
+  }
+
+  .schedule-session-subtitle {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+
+  /* Transform semantic table into responsive structured cards on mobile */
+  .inaugural-table,
+  .inaugural-table thead,
+  .inaugural-table tbody,
+  .inaugural-table th,
+  .inaugural-table td,
+  .inaugural-table tr {
+    display: block;
+  }
+
+  .inaugural-table thead {
+    display: none;
+  }
+
+  .inaugural-table tbody tr {
+    margin: 0.75rem 0;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    background-color: #ffffff !important;
+    padding: 1rem;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
+    box-sizing: border-box;
+  }
+
+  .inaugural-table tbody tr.row-highlighted {
+    border-left: 4px solid #0c2b48;
+    background-color: #f8fafd !important;
+  }
+
+  .inaugural-table td {
+    padding: 0.35rem 0;
+    border: none;
+    font-size: 0.92rem;
+  }
+
+  .cell-time {
+    margin-bottom: 0.35rem;
+  }
+
+  .cell-program {
+    font-size: 1.05rem;
+    margin-bottom: 0.25rem;
+  }
+
+  .cell-person {
+    padding-top: 0.4rem;
+    border-top: 1px dashed #e9ecef;
+    margin-top: 0.35rem;
+  }
+
+  .cell-person::before {
+    content: "Speaker / Responsible: ";
+    font-weight: 700;
+    font-size: 0.78rem;
+    color: #64748b;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 0.2rem;
+  }
+
+  .cell-person .person-none {
+    display: none;
+  }
+
+  .cell-person:has(.person-none) {
+    display: none;
+  }
+
+  .schedule-notice-box {
+    padding: 1rem 1.25rem;
+  }
+}

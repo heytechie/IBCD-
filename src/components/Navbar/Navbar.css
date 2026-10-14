@@ -82,6 +82,15 @@
   color: var(--color-primary);
 }
 
+@media (max-width: 1150px) and (min-width: 901px) {
+  .navbar-links {
+    gap: 1.15rem !important;
+  }
+  .navbar-links a {
+    font-size: 0.88rem;
+  }
+}
+
 @media (max-width: 900px) {
   .mobile-toggle {
     display: block;

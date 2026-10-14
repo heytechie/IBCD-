@@ -5,6 +5,7 @@ import Footer from './components/Footer/Footer';
 import HomePage from './pages/HomePage';
 import SubmissionPage from './pages/SubmissionPage';
 import AccommodationPage from './pages/AccommodationPage';
+import InauguralSchedulePage from './pages/InauguralSchedulePage';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/submit" element={<SubmissionPage />} />
           <Route path="/accommodation" element={<AccommodationPage />} />
+          <Route path="/inaugural-schedule" element={<InauguralSchedulePage />} />
         </Routes>
       </main>
       <Footer />

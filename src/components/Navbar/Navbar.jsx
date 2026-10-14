@@ -47,6 +47,11 @@ const Navbar = () => {
       return;
     }
 
+    if (id === 'inaugural-schedule') {
+      navigate('/inaugural-schedule');
+      return;
+    }
+
     if (location.pathname !== '/') {
       navigate('/');
       // Wait a bit for the page to render then scroll
@@ -82,6 +87,7 @@ const Navbar = () => {
           <a href="/submit" className={location.pathname === '/submit' ? 'active' : ''} onClick={(e) => handleNavClick(e, 'submission')}>Call for Papers</a>
           <a href="#committees" className={activeSection === 'committees' && location.pathname === '/' ? 'active' : ''} onClick={(e) => handleNavClick(e, 'committees')}>Committee</a>
           <a href="/accommodation" className={location.pathname === '/accommodation' ? 'active' : ''} onClick={(e) => handleNavClick(e, 'accommodation')}>Accommodation</a>
+          <a href="/inaugural-schedule" className={location.pathname === '/inaugural-schedule' ? 'active' : ''} onClick={(e) => handleNavClick(e, 'inaugural-schedule')}>Inaugural Schedule</a>
           <button className="btn" onClick={(e) => handleNavClick(e, 'registration')}>Register Now</button>
         </div>
       </div>
